@@ -1,0 +1,25 @@
+.signin{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.base{
+    width: 50%;
+    background-color: rgb(96,91,255);
+}
+
+.base > div:nth-child(1){
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.details{
+    width: 50%;
+}
+
+.details > div{
+    width: 60%;
+    margin: auto;
+}
